@@ -22,4 +22,4 @@ jobs:
         mkdir -p ~/.ssh
         cat known_hosts
         cp known_hosts ~/.ssh/known_hosts
-        ssh -tt -i keyfile ubuntu@ec2-13-211-144-149.ap-southeast-2.compute.amazonaws.com "sudo bash ~/deploy.sh"
+        ssh -tt -i keyfile ubuntu@ec2-13-49-67-221.eu-north-1.compute.amazonaws.com "sudo bash ~/deploy.sh"
